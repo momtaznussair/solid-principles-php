@@ -1,0 +1,2 @@
+1- SRP => Single Responsiblility Principle :
+    Each Module (A Class Or Method) should have only one Job|Responsiblility|Reason to change.
