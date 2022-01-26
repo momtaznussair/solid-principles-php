@@ -1,0 +1,15 @@
+{
+    "name": "momtaz/solid-php",
+    "autoload": {
+        "psr-4": {
+            "Momtaz\\SolidPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "momtaz",
+            "email": "momtaz_nussair@yahoo.com"
+        }
+    ],
+    "require": {}
+}
