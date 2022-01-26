@@ -2,7 +2,8 @@
     "name": "momtaz/solid-php",
     "autoload": {
         "psr-4": {
-            "Momtaz\\SolidPhp\\": "src/"
+            "Momtaz\\SolidPhp\\": "src/",
+            "Classes\\": "src/Classes/"
         }
     },
     "authors": [

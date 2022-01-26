@@ -1,0 +1,96 @@
+[33mcommit 916cea19cac89ddc319331c83e6220ccec343509[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: momtaz <momtaz_nussair@yahoo.com>
+Date:   Wed Jan 26 09:14:20 2022 +0200
+
+    Create MatchControl Class With Violation to SRP => MatchControl is Responsible for Three jobs attackm defence and keeping
+
+[1mdiff --git a/src/Classes/Match.php b/src/Classes/Match.php[m
+[1mnew file mode 100644[m
+[1mindex 0000000..b4cc443[m
+[1m--- /dev/null[m
+[1m+++ b/src/Classes/Match.php[m
+[36m@@ -0,0 +1,15 @@[m
+[32m+[m[32m<?php[m
+[32m+[m
+[32m+[m[32mclass MatchControl {[m
+[32m+[m[32m    public function attack() {[m
+[32m+[m[32m        # code...[m
+[32m+[m[32m    }[m
+[32m+[m
+[32m+[m[32m    public function defence() {[m
+[32m+[m[32m        # code...[m
+[32m+[m[32m    }[m
+[32m+[m
+[32m+[m[32m    public function keeping() {[m
+[32m+[m[32m        # code...[m
+[32m+[m[32m    }[m
+[32m+[m[32m}[m
+\ No newline at end of file[m
+[1mdiff --git a/src/public/index.php b/src/public/index.php[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e69de29[m
+
+[33mcommit b533f1a6b7412f65994118c6ea5557b72b81cb44[m
+Author: momtaz <momtaz_nussair@yahoo.com>
+Date:   Wed Jan 26 09:00:07 2022 +0200
+
+    Create notes.txt file
+
+[1mdiff --git a/notes.txt b/notes.txt[m
+[1mnew file mode 100644[m
+[1mindex 0000000..9c13310[m
+[1m--- /dev/null[m
+[1m+++ b/notes.txt[m
+[36m@@ -0,0 +1,2 @@[m
+[32m+[m[32m1- SRP => Single Responsiblility Principle :[m
+[32m+[m[32m    Each Module (A Class Or Method) should have only one Job|Responsiblility|Reason to change.[m
+\ No newline at end of file[m
+
+[33mcommit 9b59c6c773548610ac6bb838c93f3ee0dcb2fe5c[m
+Author: momtaz <momtaz_nussair@yahoo.com>
+Date:   Wed Jan 26 08:53:01 2022 +0200
+
+    Create Composer project
+
+[1mdiff --git a/.gitignore b/.gitignore[m
+[1mnew file mode 100644[m
+[1mindex 0000000..57872d0[m
+[1m--- /dev/null[m
+[1m+++ b/.gitignore[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32m/vendor/[m
+[1mdiff --git a/composer.json b/composer.json[m
+[1mnew file mode 100644[m
+[1mindex 0000000..061a0d7[m
+[1m--- /dev/null[m
+[1m+++ b/composer.json[m
+[36m@@ -0,0 +1,15 @@[m
+[32m+[m[32m{[m
+[32m+[m[32m    "name": "momtaz/solid-php",[m
+[32m+[m[32m    "autoload": {[m
+[32m+[m[32m        "psr-4": {[m
+[32m+[m[32m            "Momtaz\\SolidPhp\\": "src/"[m
+[32m+[m[32m        }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "authors": [[m
+[32m+[m[32m        {[m
+[32m+[m[32m            "name": "momtaz",[m
+[32m+[m[32m            "email": "momtaz_nussair@yahoo.com"[m
+[32m+[m[32m        }[m
+[32m+[m[32m    ],[m
+[32m+[m[32m    "require": {}[m
+[32m+[m[32m}[m
+
+[33mcommit 1dbdc10a6059493c6ba35477b04218d68e05bc09[m
+Author: momtaz <momtaz_nussair@yahoo.com>
+Date:   Wed Jan 26 08:51:07 2022 +0200
+
+    first commit
+
+[1mdiff --git a/README.md b/README.md[m
+[1mnew file mode 100644[m
+[1mindex 0000000..2b39a11[m
+[1m--- /dev/null[m
+[1m+++ b/README.md[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32m# solid-principles-php[m
